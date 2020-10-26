@@ -1,0 +1,22 @@
+name: test_localstorage
+description: https://github.com/lesnitsky/flutter_localstorage/issues/43
+
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  localstorage: any
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.3.0
+
+flutter:
+  uses-material-design: true
